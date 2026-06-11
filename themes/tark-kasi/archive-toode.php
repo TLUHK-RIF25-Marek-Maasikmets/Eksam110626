@@ -20,6 +20,9 @@
                     }
                     ?>
                     <article <?php post_class('product-card'); ?>>
+                        <?php if (has_post_thumbnail()) : ?>
+                            <div class="product-card-image"><?php the_post_thumbnail('medium'); ?></div>
+                        <?php endif; ?>
                         <div class="product-card-body">
                             <?php if ($hind) : ?>
                                 <p class="product-price"><?php echo esc_html($hind); ?></p>
