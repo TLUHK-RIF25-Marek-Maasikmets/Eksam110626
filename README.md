@@ -77,3 +77,5 @@ eksam110626/
     └── tark-kasi-cpt/      # CPT + ACF väljad
         └── tark-kasi-cpt.php
 ```
+# Kuidas läks?
+Alguses oli pusimist omajagu, kuna Docker tahtis mingit update teha, aga lõpuks sain kõik tööle. Algul tegin tööd vales repos, tõstsin õigesse kohta. WP seadistamisel kasutasin wordpress development skripti ja Claude abi. Hiljem kui kaustasüsteem jm failid olemas, siis hakkasin sisu timmima. Kokkuvõttes läks sujuvamalt kui varasemad korrad ja varem õpitu kinnistus paremini.
