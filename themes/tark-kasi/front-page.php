@@ -2,6 +2,9 @@
 
 <!-- HERO -->
 <section class="hero">
+    <?php $front_id = get_option('page_on_front'); if ($front_id && has_post_thumbnail($front_id)) : ?>
+        <div class="hero-image"><?php echo get_the_post_thumbnail($front_id, 'full'); ?></div>
+    <?php endif; ?>
     <div class="container">
         <h1>Tark Käsi OÜ</h1>
         <p class="lead">Käsitöölleib ja -saiakesed, küpsetatud traditsiooniliste retseptide järgi värskelt iga päev.</p>
