@@ -6,8 +6,8 @@
         <div class="hero-image"><?php echo get_the_post_thumbnail($front_id, 'full'); ?></div>
     <?php endif; ?>
     <div class="container">
-        <h1>Tark Käsi OÜ</h1>
-        <p class="lead">Käsitöölleib ja -saiakesed, küpsetatud traditsiooniliste retseptide järgi värskelt iga päev.</p>
+        <h1>Tark Käsi OÜ otse Pagari tänaval!</h1>
+        <p class="lead">Käsitööleib ja -saiakesed, küpsetatud traditsiooniliste retseptide järgi värskelt iga päev.</p>
         <a href="<?php echo esc_url(get_post_type_archive_link('toode')); ?>" class="btn">Meie tooted</a>
         <a href="<?php echo esc_url(get_permalink(get_page_by_path('kontakt'))); ?>" class="btn btn-outline">Võta ühendust</a>
     </div>
@@ -17,7 +17,7 @@
 <section class="section">
     <div class="container">
         <h2 class="section-title">Miks Tark Käsi?</h2>
-        <p class="section-subtitle">Kolm põhjust, miks meie leib eristub</p>
+        <p class="section-subtitle">Kolm põhjust, miks meie leib on eriline</p>
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon">🌾</div>
@@ -27,7 +27,7 @@
             <div class="feature-card">
                 <div class="feature-icon">⏱️</div>
                 <h3>Aeglane käärimine</h3>
-                <p>Meie hapuleib käärub üle 24 tunni – see annab sügavama maitse ja parema seeditavuse.</p>
+                <p>Meie hapuleib käärib üle 24 tunni – see annab sügavama maitse ja parema seeditavuse.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🤲</div>

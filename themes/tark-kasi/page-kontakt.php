@@ -15,7 +15,7 @@
         <div class="contact-grid">
 
             <div class="contact-info">
-                <h2>Võtke meiega ühendust</h2>
+                <h2>Võta meiega ühendust</h2>
 
                 <div class="contact-item">
                     <span class="contact-label">Aadress</span>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="contact-item">
                     <span class="contact-label">Telefon</span>
-                    <span class="contact-value"><a href="tel:+3725551234">+372 5555 1234</a></span>
+                    <span class="contact-value"><a href="tel:+3725551234">+372 666 666</a></span>
                 </div>
                 <div class="contact-item">
                     <span class="contact-label">E-post</span>
@@ -45,9 +45,7 @@
             </div>
 
             <div>
-                <div class="contact-map-placeholder">
-                    🗺️ Kaart: Pagari tänav 5, Tallinn
-                </div>
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/map.png" alt="Kaart: Pagari tänav 5, Tallinn" style="width:100%;border-radius:8px;">
             </div>
 
         </div>
