@@ -7,7 +7,7 @@
     <?php endif; ?>
     <div class="container">
         <h1>Tark Käsi OÜ otse Pagari tänaval!</h1>
-        <p class="lead">Käsitööleib ja -saiakesed, küpsetatud traditsiooniliste retseptide järgi värskelt iga päev.</p>
+        <p class="lead">Käsitööleivad ja -saiakesed, küpsetatud traditsiooniliste retseptide järgi värskelt iga päev.</p>
         <a href="<?php echo esc_url(get_post_type_archive_link('toode')); ?>" class="btn">Meie tooted</a>
         <a href="<?php echo esc_url(get_permalink(get_page_by_path('kontakt'))); ?>" class="btn btn-outline">Võta ühendust</a>
     </div>

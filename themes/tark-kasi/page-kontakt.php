@@ -19,7 +19,7 @@
 
                 <div class="contact-item">
                     <span class="contact-label">Aadress</span>
-                    <span class="contact-value">Pagari tänav 5, 10151 Tallinn</span>
+                    <span class="contact-value">Pagari 1, 10151 Tallinn</span>
                 </div>
                 <div class="contact-item">
                     <span class="contact-label">Telefon</span>
